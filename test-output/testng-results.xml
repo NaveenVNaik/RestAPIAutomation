@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38889" started-at="2020-11-28T05:32:46Z" finished-at="2020-11-28T05:33:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38889" started-at="2020-11-28T05:32:46Z" finished-at="2020-11-28T05:33:24Z">
+      <class name="testcases.JiraAPITestCases">
+        <test-method status="PASS" signature="loginToJira()[pri:0, instance:testcases.JiraAPITestCases@5c3bd550]" name="loginToJira" duration-ms="2978" started-at="2020-11-28T11:02:46Z" finished-at="2020-11-28T11:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToJira -->
+        <test-method status="PASS" signature="createDefect()[pri:0, instance:testcases.JiraAPITestCases@5c3bd550]" name="createDefect" duration-ms="19014" started-at="2020-11-28T11:02:49Z" finished-at="2020-11-28T11:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDefect -->
+        <test-method status="PASS" signature="addcomment()[pri:0, instance:testcases.JiraAPITestCases@5c3bd550]" name="addcomment" duration-ms="2776" started-at="2020-11-28T11:03:08Z" finished-at="2020-11-28T11:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcomment -->
+        <test-method status="PASS" signature="addAttachment()[pri:0, instance:testcases.JiraAPITestCases@5c3bd550]" name="addAttachment" duration-ms="13864" started-at="2020-11-28T11:03:10Z" finished-at="2020-11-28T11:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAttachment -->
+        <test-method status="PASS" signature="getIssueDetails()[pri:0, instance:testcases.JiraAPITestCases@5c3bd550]" name="getIssueDetails" duration-ms="221" started-at="2020-11-28T11:03:24Z" finished-at="2020-11-28T11:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIssueDetails -->
+      </class> <!-- testcases.JiraAPITestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
